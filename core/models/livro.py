@@ -21,4 +21,3 @@ class Livro(models.Model):
 
     autores = models.ManyToManyField(Autor, related_name="livros", blank=True)
     
-  
